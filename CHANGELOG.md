@@ -20,6 +20,10 @@ Tags :
 ## [Unreleased]
 
 
+## [1.0.1] - 2016-02-28
+### Changed
+- Logger does not generate a log directory anymore
+
 ## [1.0.0] - 2016-02-28
 ### Added
 - First project commit

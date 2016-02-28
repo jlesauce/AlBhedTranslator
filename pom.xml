@@ -6,7 +6,7 @@
 	<groupId>org.jls</groupId>
 	<artifactId>al-bhed-translator</artifactId>
 	<name>AlBhedTranslator</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 	<url>http://maven.apache.org</url>
 	<description>Small application to translate Al Bhed.</description>

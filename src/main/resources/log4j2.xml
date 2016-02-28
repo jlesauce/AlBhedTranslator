@@ -32,33 +32,14 @@
 					onMismatch="neutral" />
 			</Filters>
 		</Console>
-
-		<!-- LOG FILE Appender (level >= debug) -->
-		<RollingFile name="LOG_FILE" fileName="logs/trace.log"
-			append="true" immediateFlush="true"
-			filePattern="logs/$${date:yyyy-MM-dd}/trace_%d{yyyy-MM-dd_HH'h'}.log">
-			<PatternLayout>
-				<Pattern>%-5p [%d{dd MMM yyyy HH:mm:ss.SSS}] (%c{1}.%M) : %m%n
-				</Pattern>
-			</PatternLayout>
-			<Filters>
-				<ThresholdFilter level="debug" onMatch="accept"
-					onMismatch="deny" />
-			</Filters>
-			<Policies>
-				<TimeBasedTriggeringPolicy interval="1"
-					modulate="true" />
-			</Policies>
-		</RollingFile>
 	</Appenders>
 
 	<!-- Specify the differents loggers of the application -->
 	<Loggers>
 		<!-- Root logger -->
-		<Root level="trace">
+		<Root level="info">
 			<AppenderRef ref="STD_ERR" />
 			<AppenderRef ref="STD_OUT" />
-			<!--<AppenderRef ref="LOG_FILE" /> -->
 		</Root>
 	</Loggers>
 </Configuration>
