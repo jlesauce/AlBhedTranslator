@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<!-- Configuration Resources -->
+<configuration>
+	<properties fileName="mainView.properties" config-name="mainView" throwExceptionOnMissing="true" />
+	<properties fileName="application.properties" config-name="application" throwExceptionOnMissing="true" />
+	<properties fileName="translation.properties" config-name="translation" throwExceptionOnMissing="true" />
+</configuration>
